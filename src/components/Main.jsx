@@ -1,5 +1,5 @@
 import BackgroundMain from '/src/assets/bg-header.jpg';
-import ProfileImg from '/src/assets/profile-pic.jpg';
+import ProfileImg from '/src/assets/profile-pic.png';
 import { TypeAnimation } from 'react-type-animation';
 import { BtnDownload, BtnLinkedIn } from './Buttons';
 
@@ -17,7 +17,7 @@ export default function Main() {
             Hi,
             <br />
             Jag är
-            <span className="text-emerald-700"> Lina Sahar</span>
+            <span className="text-emerald-700"> Lina Saharholm</span>
           </h1>
           <h1 className="text-4xl font-bold text-gray-800 sm:text-5xl">
             Förskollärare.
@@ -28,11 +28,11 @@ export default function Main() {
               sequence={[
                 'Jag är pedagog.',
                 1000,
-                'Jag är mamma.',
+                'Med utförskande arbetssätt.',
                 1000,
-                'Jag är kompis.',
+                'Jag är sammarbetsvilligt.',
                 1000,
-                'Jag är bäst.',
+                'Alltid för barnets bästa.',
                 1000,
                 'Ingen protest.',
                 1000,
@@ -52,7 +52,7 @@ export default function Main() {
       <img
         src={ProfileImg}
         alt="profile image"
-         className="absolute right-4 bottom-11 w-[200px] h-[200px] object-cover translate-y-1/3 scale-x-[1] rotate-[-5deg] rounded-full border-8 border-white shadow-2xl md:mr-[25%] md:w-[300px] md:h-[300px] md:bottom-1/5"
+        className="absolute right-4 bottom-11 h-[200px] w-[200px] translate-y-1/3 scale-x-[-1] rotate-[-1deg] rounded-full border-8 border-white object-cover shadow-2xl md:bottom-1/5 md:mr-[25%] md:h-[300px] md:w-[300px]"
       ></img>
     </div>
   );
