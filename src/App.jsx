@@ -17,8 +17,8 @@ export const App = () => {
       <Presentation />
       <Work />
       <Studies />
-      <Reviews />
       {/* 
+      <Reviews />
       <Skills />
       <Projects />
       <UnderContact /> */}

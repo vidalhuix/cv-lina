@@ -40,14 +40,14 @@ export default function Sidenav() {
             onClick={() => setNav(false)}
             className="m-2 flex w-[75%] cursor-pointer items-center justify-center rounded-full bg-gray-100 p-4 shadow-lg shadow-gray-400 duration-200 ease-in hover:scale-110"
           >
-            <MdOutlineReviews size={20} />
+            {/* <MdOutlineReviews size={20} />
             <span className="pl-4">Recesioner</span>
           </a>
           <a
             href="#contact"
             onClick={() => setNav(false)}
             className="m-2 flex w-[75%] cursor-pointer items-center justify-center rounded-full bg-gray-100 p-4 shadow-lg shadow-gray-400 duration-200 ease-in hover:scale-110"
-          >
+          > */}
             <AiOutlineMail size={20} />
             <span className="pl-4">Kontakt</span>
           </a>
@@ -68,12 +68,12 @@ export default function Sidenav() {
             >
               <BsPerson size={20} />
             </a>
-            <a
+            {/* <a
               href="#reviews"
               className="m-2 cursor-pointer rounded-full bg-gray-100 p-4 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110"
             >
               <MdOutlineReviews size={20} />
-            </a>
+            </a> */}
             <a
               href="#contact"
               className="m-2 cursor-pointer rounded-full bg-gray-100 p-4 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110"

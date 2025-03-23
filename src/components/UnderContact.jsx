@@ -11,7 +11,7 @@ export const UnderContact = () => {
     setTimeout(() => setCopied(false), 2000); // Reset after 2 seconds
   };
   return (
-    <div className="bg-emerald-700 h-full w-full text-sm">
+    <div className="h-full w-full bg-teal-600 text-sm">
       <div className="flex flex-col items-center justify-center p-7 text-white">
         <p>Lina Sahar Vidal</p>
         <p>+46769473035</p>

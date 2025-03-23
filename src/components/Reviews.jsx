@@ -68,15 +68,15 @@ export const Reviews = () => {
               className="m-4 flex min-h-[210px] w-72 flex-col justify-between rounded-lg border border-gray-100 bg-white p-6 text-gray-700 shadow-lg"
             >
               <div className="relative text-lg text-gray-800 italic">
-                <span className="absolute -top-2 -left-2 text-4xl text-emerald-700">
+                <span className="absolute -top-2 -left-2 text-4xl text-teal-600">
                   <RiDoubleQuotesL size={20} />
                 </span>
                 {review.text}
-                <span className="absolute -right-2 -bottom-2 text-4xl text-emerald-700">
+                <span className="absolute -right-2 -bottom-2 text-4xl text-teal-600">
                   <RiDoubleQuotesR size={20} />
                 </span>
               </div>
-              <div className="mt-4 text-right text-sm text-emerald-700">
+              <div className="mt-4 text-right text-sm text-teal-600">
                 {review.name} <br />
                 {review.date} <br />
               </div>
@@ -85,7 +85,7 @@ export const Reviews = () => {
       </div>
       <button
         onClick={toggleShowAll}
-        className="mt-6 mb-16 transform rounded-lg bg-emerald-700 px-6 py-2 text-lg text-white transition hover:scale-105 hover:bg-[#d3af97]"
+        className="mt-6 mb-16 transform rounded-lg bg-teal-600 px-6 py-2 text-lg text-white transition hover:scale-105 hover:bg-[#d3af97]"
       >
         {showAll ? 'Visa mindre' : 'Mer'}
       </button>

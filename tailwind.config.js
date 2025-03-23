@@ -3,7 +3,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'custom-green': 'emerald-700',
+        'custom-green': 'teal-600',
       },
       animation: {
         reveal: 'reveal 0.3s ease-in forwards',
