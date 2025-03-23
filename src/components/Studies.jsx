@@ -19,6 +19,22 @@ export const Studies = () => {
             'Barns erspråkighet ufrån forskning och läroplanen, barnens modersmål och hur detta kan llämpas i verksamheten samt hur vi pedagoger kan ha ett mer språkutvecklande arbetssätt samt hur vi kan använda oss av litteracitet för att jobba med barnens flerspråkighet.',
         },
         {
+            year: '*',
+            title: 'Brandövning',
+            duration: 'Okt 2022',
+            location: 'Stockholm',
+            details:
+            '',
+        },
+        {
+            year: '2021 *',
+            title: 'Hjärt-Lungräddning',
+            duration: 'Sep 2021, Dec 2024',
+            location: 'Stockholm',
+            details:
+            '',
+        },
+        {
           year: '2018',
           title: 'Förskollärarutbildning - Södertörns Högskola',
           duration: '3 år',
@@ -26,22 +42,6 @@ export const Studies = () => {
           details:
             'Erfarenhetsbaserad program med interkulturell inriktning',
         },
-    {
-        year: '*',
-        title: 'Brandövning',
-        duration: 'Okt 2022',
-        location: 'Stockholm',
-        details:
-        '',
-    },
-    {
-        year: '*',
-        title: 'Hjärt-Lungräddning',
-        duration: 'Sep 2021, Dec 2024',
-        location: 'Stockholm',
-        details:
-        '',
-    },
     {
         year: '2013 *',
         title: 'Empatisk kommunikation',
@@ -56,7 +56,7 @@ export const Studies = () => {
       duration: '6 år',
       location: 'Stockholm',
       details:
-        'Nutrion Utbildningsprogrammet',
+        'Nutrion Utbildningsprogrammet. Legitimerad nutritionist.',
     },
 ];
 return (

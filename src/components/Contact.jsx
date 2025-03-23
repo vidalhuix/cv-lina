@@ -7,9 +7,9 @@ export const Contact = () => {
         {/* <h1 className="mb-4 text-center text-4xl font-bold text-gray-800">
         </h1> */}
         <div className="m-auto flex w-full max-w-[100px] flex-row items-center justify-center gap-4 pt-6">
-          <BtnLinkedIn color="fill-teal-600" />
+          <BtnLinkedIn />
 
-          <BtnDownload color="fill-teal-600" />
+          <BtnDownload />
         </div>
       </div>
     </div>

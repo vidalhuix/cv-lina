@@ -1,7 +1,7 @@
 import { FaLinkedin, FaFileDownload } from 'react-icons/fa';
 import clsx from 'clsx';
 
-export const BtnDownload = ({ color = 'gray-800' }) => {
+export const BtnDownload = () => {
   const getFilePath = () => `/CV Lina - Förskollärare.pdf`;
 
   const handleDownload = () => {
@@ -14,11 +14,11 @@ export const BtnDownload = ({ color = 'gray-800' }) => {
         onClick={handleDownload}
         className="group relative flex cursor-pointer flex-row items-center justify-center border-gray-800 p-1 px-4 py-2 duration-100 hover:scale-105"
       >
-        <FaFileDownload size={42} className={clsx(`fill-${color}`)} />
+        <FaFileDownload size={42} className={clsx(`fill-text-teal-600`)} />
         <span
           className={clsx(
             'group-hover:animate-reveal absolute hidden w-[300px] overflow-hidden pl-[150px] text-sm font-semibold',
-            `text-${color}`,
+            `text-text-teal-600`,
             'group-hover:block'
           )}
         >
@@ -29,7 +29,7 @@ export const BtnDownload = ({ color = 'gray-800' }) => {
   );
 };
 
-export const BtnLinkedIn = ({ color = 'gray-800' }) => {
+export const BtnLinkedIn = () => {
   return (
     <div className="p-4 pr-0">
       <a
@@ -39,7 +39,7 @@ export const BtnLinkedIn = ({ color = 'gray-800' }) => {
       >
         <FaLinkedin
           size={50}
-          className={clsx(`fill-${color}`, 'hover:scale-105')}
+          className={clsx(`fill-text-teal-600`, 'hover:scale-105')}
         />
       </a>
     </div>
