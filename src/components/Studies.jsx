@@ -60,7 +60,7 @@ export const Studies = () => {
     },
 ];
 return (
-    <div id="resume" className="mx-auto mb-7 bg-stone-100 pt-0 p-4 sm:pl-10">
+    <div id="resume" className="mx-auto mb-7 bg-gray-100 pt-0 p-4 sm:pl-10">
       <div className="relative m-auto mb-7 max-w-3xl pt-0 p-4">
         <h1 className="mb-4 text-center text-4xl font-bold text-gray-800">
         Utbildning och *Kurser

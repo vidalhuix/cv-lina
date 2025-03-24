@@ -28,7 +28,7 @@ export const Work = () => {
     },
   ];
   return (
-    <div id="resume" className="m-auto mt-7 bg-stone-100 pb-0 p-4 sm:pl-10">
+    <div id="resume" className="m-auto mt-7 bg-gray-100 pb-0 p-4 sm:pl-10">
       <div className="relative m-auto mt-7 max-w-3xl pb-0 p-4">
         <h1 className="mb-4 text-center text-4xl font-bold text-gray-800">
           Erfarenhet

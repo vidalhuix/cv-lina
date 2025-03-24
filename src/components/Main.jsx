@@ -14,9 +14,8 @@ export default function Main() {
       <div className="hh-[75vh] absolute top-0 left-0 w-full bg-white/5">
         <div className="m-auto mt-15 flex h-full w-full max-w-4xl flex-col items-start justify-center p-4 pl-10">
           <h1 className="my-4 text-4xl text-gray-800 sm:text-5xl">
-            
             <br />
-            
+
             <span className="text-teal-600"> Lina Vidal</span>
           </h1>
           <h1 className="text-4xl font-bold text-gray-800 sm:text-5xl">
@@ -28,13 +27,11 @@ export default function Main() {
               sequence={[
                 'Jag är pedagog.',
                 1000,
-                'Med utförskande arbetssätt.',
+                'Med utförskande arbetssätt och sammarbetsbiligt.',
                 1000,
-                'Jag är sammarbetsvilligt.',
+                'Jag skapar en trygg lärmiljö.',
                 1000,
-                'Alltid för barnets bästa.',
-                1000,
-                'Ingen protest.',
+                'Alltid med barnets bästa i fokus.',
                 1000,
               ]}
               wrapper="span"

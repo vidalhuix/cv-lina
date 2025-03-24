@@ -8,6 +8,7 @@ import { Studies } from './components/Studies';
 import { Contact } from './components/Contact';
 import { UnderContact } from './components/UnderContact';
 import { Reviews } from './components/Reviews';
+import SkillsSection from './components/SkillsSection';
 
 export const App = () => {
   return (
@@ -17,6 +18,7 @@ export const App = () => {
       <Presentation />
       <Work />
       <Studies />
+      <SkillsSection />
       {/* 
       <Reviews />
       <Skills />

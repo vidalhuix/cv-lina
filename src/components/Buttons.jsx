@@ -33,7 +33,7 @@ export const BtnLinkedIn = () => {
   return (
     <div className="p-4 pr-0">
       <a
-        href="https://www.linkedin.com/in/arnau-vidal-4266a940/"
+        href="https://www.linkedin.com/in/lina-vidal-3986ab355/"
         target="_blank"
         rel="noopener noreferrer"
       >
